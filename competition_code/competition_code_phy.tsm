@@ -1,0 +1,1052 @@
+eagle_s20
+13 23 1003 651 1003075553 51 24
+-31.065 -1.060 camera_top eagle_s20 BG256 Detail 15 5
+clock: clk_24m
+13 1000000000 220 2
+Setup check
+23 3
+Endpoint: u_seg4/reg2_b0|_al_u4122
+23 -31.065000 1000000000 3
+Timing path: _al_u3491|u_RGB565_to_binary/reg1_b3.clk->u_seg4/reg2_b0|_al_u4122
+_al_u3491|u_RGB565_to_binary/reg1_b3.clk
+u_seg4/reg2_b0|_al_u4122
+25 -31.065000 3.157000 34.222000 35 43
+threhold[3] u_seg4/lt0_4|u_seg4/lt0_3.b[0]
+u_seg4/lt0_c5 u_seg4/lt0_6|u_seg4/lt0_5.fci
+u_seg4/lt0_c7 u_seg4/lt0_cout|u_seg4/lt0_7.fci
+u_seg4/sm_bit3_num[0] _al_u3451|u_seg4/reg0_b4.a[1]
+u_seg4/n1[4] u_seg4/lt1_4|u_seg4/lt1_3.b[1]
+u_seg4/lt1_c5 u_seg4/lt1_6|u_seg4/lt1_5.fci
+u_seg4/lt1_c7 u_seg4/lt1_cout|u_seg4/lt1_7.fci
+u_seg4/n2 _al_u3469|_al_u4011.d[1]
+u_seg4/n4[2] u_seg4/sub2/ucin_al_u4729.a[1]
+u_seg4/sub2/c3 u_seg4/sub2/u3_al_u4730.fci
+n58[4] _al_u3522|_al_u3503.c[0]
+u_seg4/n11[5] u_seg4/lt3_6|u_seg4/lt3_5.b[0]
+u_seg4/lt3_c7 u_seg4/lt3_cout|u_seg4/lt3_7.fci
+u_seg4/n13 _al_u3518|_al_u3495.e[1]
+u_seg4/n18[1] u_seg4/sub4/ucin_al_u4733.b[0]
+n60[2] _al_u3599|_al_u3548.b[0]
+u_seg4/n25[3] u_seg4/lt5_4|u_seg4/lt5_3.b[0]
+u_seg4/lt5_c5 u_seg4/lt5_6|u_seg4/lt5_5.fci
+u_seg4/lt5_c7 u_seg4/lt5_cout|u_seg4/lt5_7.fci
+u_seg4/n27 _al_u3599|_al_u3548.b[1]
+u_seg4/n31[3] u_seg4/lt6_4|u_seg4/lt6_3.b[0]
+u_seg4/lt6_c5 u_seg4/lt6_6|u_seg4/lt6_5.fci
+u_seg4/lt6_c7 u_seg4/lt6_cout|u_seg4/lt6_7.fci
+u_seg4/n33 _al_u3640|_al_u3940.a[1]
+u_seg4/n37[4] u_seg4/lt7_4|u_seg4/lt7_3.b[1]
+u_seg4/lt7_c5 u_seg4/lt7_6|u_seg4/lt7_5.fci
+u_seg4/lt7_c7 u_seg4/lt7_cout|u_seg4/lt7_7.fci
+u_seg4/n39 _al_u3938|_al_u3638.e[1]
+u_seg4/n43[2] u_seg4/sub8/ucin_al_u4741.a[1]
+u_seg4/sub8/c3 u_seg4/sub8/u3_al_u4742.fci
+n64[3] _al_u4002|_al_u3960.c[0]
+u_seg4/n49[4] u_seg4/lt9_4|u_seg4/lt9_3.b[1]
+u_seg4/lt9_c5 u_seg4/lt9_6|u_seg4/lt9_5.fci
+u_seg4/lt9_c7 u_seg4/lt9_cout|u_seg4/lt9_7.fci
+u_seg4/n51 _al_u4000|_al_u3958.b[1]
+u_seg4/n55[2] u_seg4/lt10_2|u_seg4/lt10_1.b[1]
+u_seg4/lt10_c3 u_seg4/lt10_4|u_seg4/lt10_3.fci
+u_seg4/lt10_c5 u_seg4/lt10_6|u_seg4/lt10_5.fci
+u_seg4/lt10_c7 u_seg4/lt10_cout|u_seg4/lt10_7.fci
+u_seg4/n57 _al_u4121|_al_u4120.d[0]
+_al_u4120_o _al_u4121|_al_u4120.d[1]
+_al_u4121_o u_seg4/reg2_b0|_al_u4122.d[0]
+_al_u4122_o u_seg4/reg2_b0|_al_u4122.a[1]
+
+Timing path: _al_u3491|u_RGB565_to_binary/reg1_b3.clk->u_seg4/reg2_b0|_al_u4122
+_al_u3491|u_RGB565_to_binary/reg1_b3.clk
+u_seg4/reg2_b0|_al_u4122
+135 -31.043000 3.157000 34.200000 35 44
+threhold[3] u_seg4/lt0_4|u_seg4/lt0_3.b[0]
+u_seg4/lt0_c5 u_seg4/lt0_6|u_seg4/lt0_5.fci
+u_seg4/lt0_c7 u_seg4/lt0_cout|u_seg4/lt0_7.fci
+u_seg4/sm_bit3_num[0] _al_u3451|u_seg4/reg0_b4.a[1]
+u_seg4/n1[4] u_seg4/lt1_4|u_seg4/lt1_3.b[1]
+u_seg4/lt1_c5 u_seg4/lt1_6|u_seg4/lt1_5.fci
+u_seg4/lt1_c7 u_seg4/lt1_cout|u_seg4/lt1_7.fci
+u_seg4/n2 _al_u3469|_al_u4011.d[1]
+u_seg4/n4[2] u_seg4/sub2/ucin_al_u4729.a[1]
+u_seg4/sub2/c3 u_seg4/sub2/u3_al_u4730.fci
+n58[4] _al_u3522|_al_u3503.c[0]
+u_seg4/n11[5] u_seg4/lt3_6|u_seg4/lt3_5.b[0]
+u_seg4/lt3_c7 u_seg4/lt3_cout|u_seg4/lt3_7.fci
+u_seg4/n13 _al_u3518|_al_u3495.e[1]
+u_seg4/n18[1] u_seg4/sub4/ucin_al_u4733.b[0]
+n60[2] _al_u3599|_al_u3548.b[0]
+u_seg4/n25[3] u_seg4/lt5_4|u_seg4/lt5_3.b[0]
+u_seg4/lt5_c5 u_seg4/lt5_6|u_seg4/lt5_5.fci
+u_seg4/lt5_c7 u_seg4/lt5_cout|u_seg4/lt5_7.fci
+u_seg4/n27 _al_u3599|_al_u3548.b[1]
+u_seg4/n31[3] u_seg4/lt6_4|u_seg4/lt6_3.b[0]
+u_seg4/lt6_c5 u_seg4/lt6_6|u_seg4/lt6_5.fci
+u_seg4/lt6_c7 u_seg4/lt6_cout|u_seg4/lt6_7.fci
+u_seg4/n33 _al_u3938|_al_u3638.a[0]
+u_seg4/n37[2] u_seg4/lt7_2|u_seg4/lt7_1.b[1]
+u_seg4/lt7_c3 u_seg4/lt7_4|u_seg4/lt7_3.fci
+u_seg4/lt7_c5 u_seg4/lt7_6|u_seg4/lt7_5.fci
+u_seg4/lt7_c7 u_seg4/lt7_cout|u_seg4/lt7_7.fci
+u_seg4/n39 _al_u3938|_al_u3638.e[1]
+u_seg4/n43[2] u_seg4/sub8/ucin_al_u4741.a[1]
+u_seg4/sub8/c3 u_seg4/sub8/u3_al_u4742.fci
+n64[3] _al_u4002|_al_u3960.c[0]
+u_seg4/n49[4] u_seg4/lt9_4|u_seg4/lt9_3.b[1]
+u_seg4/lt9_c5 u_seg4/lt9_6|u_seg4/lt9_5.fci
+u_seg4/lt9_c7 u_seg4/lt9_cout|u_seg4/lt9_7.fci
+u_seg4/n51 _al_u4000|_al_u3958.b[1]
+u_seg4/n55[2] u_seg4/lt10_2|u_seg4/lt10_1.b[1]
+u_seg4/lt10_c3 u_seg4/lt10_4|u_seg4/lt10_3.fci
+u_seg4/lt10_c5 u_seg4/lt10_6|u_seg4/lt10_5.fci
+u_seg4/lt10_c7 u_seg4/lt10_cout|u_seg4/lt10_7.fci
+u_seg4/n57 _al_u4121|_al_u4120.d[0]
+_al_u4120_o _al_u4121|_al_u4120.d[1]
+_al_u4121_o u_seg4/reg2_b0|_al_u4122.d[0]
+_al_u4122_o u_seg4/reg2_b0|_al_u4122.a[1]
+
+Timing path: _al_u3491|u_RGB565_to_binary/reg1_b3.clk->u_seg4/reg2_b0|_al_u4122
+_al_u3491|u_RGB565_to_binary/reg1_b3.clk
+u_seg4/reg2_b0|_al_u4122
+247 -31.001000 3.157000 34.158000 35 43
+threhold[3] u_seg4/lt0_4|u_seg4/lt0_3.b[0]
+u_seg4/lt0_c5 u_seg4/lt0_6|u_seg4/lt0_5.fci
+u_seg4/lt0_c7 u_seg4/lt0_cout|u_seg4/lt0_7.fci
+u_seg4/sm_bit3_num[0] _al_u3451|u_seg4/reg0_b4.a[1]
+u_seg4/n1[4] u_seg4/lt1_4|u_seg4/lt1_3.b[1]
+u_seg4/lt1_c5 u_seg4/lt1_6|u_seg4/lt1_5.fci
+u_seg4/lt1_c7 u_seg4/lt1_cout|u_seg4/lt1_7.fci
+u_seg4/n2 _al_u3469|_al_u4011.d[1]
+u_seg4/n4[2] u_seg4/sub2/ucin_al_u4729.a[1]
+u_seg4/sub2/c3 u_seg4/sub2/u3_al_u4730.fci
+n58[4] _al_u3522|_al_u3503.c[0]
+u_seg4/n11[5] u_seg4/lt3_6|u_seg4/lt3_5.b[0]
+u_seg4/lt3_c7 u_seg4/lt3_cout|u_seg4/lt3_7.fci
+u_seg4/n13 _al_u3518|_al_u3495.e[1]
+u_seg4/n18[1] u_seg4/sub4/ucin_al_u4733.b[0]
+n60[2] _al_u3599|_al_u3548.b[0]
+u_seg4/n25[3] u_seg4/lt5_4|u_seg4/lt5_3.b[0]
+u_seg4/lt5_c5 u_seg4/lt5_6|u_seg4/lt5_5.fci
+u_seg4/lt5_c7 u_seg4/lt5_cout|u_seg4/lt5_7.fci
+u_seg4/n27 _al_u3599|_al_u3548.b[1]
+u_seg4/n31[3] u_seg4/lt6_4|u_seg4/lt6_3.b[0]
+u_seg4/lt6_c5 u_seg4/lt6_6|u_seg4/lt6_5.fci
+u_seg4/lt6_c7 u_seg4/lt6_cout|u_seg4/lt6_7.fci
+u_seg4/n33 _al_u3939|_al_u3639.a[0]
+u_seg4/n37[3] u_seg4/lt7_4|u_seg4/lt7_3.b[0]
+u_seg4/lt7_c5 u_seg4/lt7_6|u_seg4/lt7_5.fci
+u_seg4/lt7_c7 u_seg4/lt7_cout|u_seg4/lt7_7.fci
+u_seg4/n39 _al_u3938|_al_u3638.e[1]
+u_seg4/n43[2] u_seg4/sub8/ucin_al_u4741.a[1]
+u_seg4/sub8/c3 u_seg4/sub8/u3_al_u4742.fci
+n64[3] _al_u4002|_al_u3960.c[0]
+u_seg4/n49[4] u_seg4/lt9_4|u_seg4/lt9_3.b[1]
+u_seg4/lt9_c5 u_seg4/lt9_6|u_seg4/lt9_5.fci
+u_seg4/lt9_c7 u_seg4/lt9_cout|u_seg4/lt9_7.fci
+u_seg4/n51 _al_u4000|_al_u3958.b[1]
+u_seg4/n55[2] u_seg4/lt10_2|u_seg4/lt10_1.b[1]
+u_seg4/lt10_c3 u_seg4/lt10_4|u_seg4/lt10_3.fci
+u_seg4/lt10_c5 u_seg4/lt10_6|u_seg4/lt10_5.fci
+u_seg4/lt10_c7 u_seg4/lt10_cout|u_seg4/lt10_7.fci
+u_seg4/n57 _al_u4121|_al_u4120.d[0]
+_al_u4120_o _al_u4121|_al_u4120.d[1]
+_al_u4121_o u_seg4/reg2_b0|_al_u4122.d[0]
+_al_u4122_o u_seg4/reg2_b0|_al_u4122.a[1]
+
+
+Endpoint: _al_u4124|u_seg4/reg2_b3
+357 -30.537000 1000000000 3
+Timing path: _al_u3491|u_RGB565_to_binary/reg1_b3.clk->_al_u4124|u_seg4/reg2_b3
+_al_u3491|u_RGB565_to_binary/reg1_b3.clk
+_al_u4124|u_seg4/reg2_b3
+359 -30.537000 3.157000 33.694000 33 41
+threhold[3] u_seg4/lt0_4|u_seg4/lt0_3.b[0]
+u_seg4/lt0_c5 u_seg4/lt0_6|u_seg4/lt0_5.fci
+u_seg4/lt0_c7 u_seg4/lt0_cout|u_seg4/lt0_7.fci
+u_seg4/sm_bit3_num[0] _al_u3451|u_seg4/reg0_b4.a[1]
+u_seg4/n1[4] u_seg4/lt1_4|u_seg4/lt1_3.b[1]
+u_seg4/lt1_c5 u_seg4/lt1_6|u_seg4/lt1_5.fci
+u_seg4/lt1_c7 u_seg4/lt1_cout|u_seg4/lt1_7.fci
+u_seg4/n2 _al_u3469|_al_u4011.d[1]
+u_seg4/n4[2] u_seg4/sub2/ucin_al_u4729.a[1]
+u_seg4/sub2/c3 u_seg4/sub2/u3_al_u4730.fci
+n58[4] _al_u3522|_al_u3503.c[0]
+u_seg4/n11[5] u_seg4/lt3_6|u_seg4/lt3_5.b[0]
+u_seg4/lt3_c7 u_seg4/lt3_cout|u_seg4/lt3_7.fci
+u_seg4/n13 _al_u3518|_al_u3495.e[1]
+u_seg4/n18[1] u_seg4/sub4/ucin_al_u4733.b[0]
+n60[2] _al_u3599|_al_u3548.b[0]
+u_seg4/n25[3] u_seg4/lt5_4|u_seg4/lt5_3.b[0]
+u_seg4/lt5_c5 u_seg4/lt5_6|u_seg4/lt5_5.fci
+u_seg4/lt5_c7 u_seg4/lt5_cout|u_seg4/lt5_7.fci
+u_seg4/n27 _al_u3599|_al_u3548.b[1]
+u_seg4/n31[3] u_seg4/lt6_4|u_seg4/lt6_3.b[0]
+u_seg4/lt6_c5 u_seg4/lt6_6|u_seg4/lt6_5.fci
+u_seg4/lt6_c7 u_seg4/lt6_cout|u_seg4/lt6_7.fci
+u_seg4/n33 _al_u3640|_al_u3940.a[1]
+u_seg4/n37[4] u_seg4/lt7_4|u_seg4/lt7_3.b[1]
+u_seg4/lt7_c5 u_seg4/lt7_6|u_seg4/lt7_5.fci
+u_seg4/lt7_c7 u_seg4/lt7_cout|u_seg4/lt7_7.fci
+u_seg4/n39 _al_u3938|_al_u3638.e[1]
+u_seg4/n43[2] u_seg4/sub8/ucin_al_u4741.a[1]
+u_seg4/sub8/c3 u_seg4/sub8/u3_al_u4742.fci
+n64[3] _al_u4002|_al_u3960.c[0]
+u_seg4/n49[4] u_seg4/lt9_4|u_seg4/lt9_3.b[1]
+u_seg4/lt9_c5 u_seg4/lt9_6|u_seg4/lt9_5.fci
+u_seg4/lt9_c7 u_seg4/lt9_cout|u_seg4/lt9_7.fci
+u_seg4/n51 _al_u4000|_al_u3958.b[1]
+u_seg4/n55[2] u_seg4/lt10_2|u_seg4/lt10_1.b[1]
+u_seg4/lt10_c3 u_seg4/lt10_4|u_seg4/lt10_3.fci
+u_seg4/lt10_c5 u_seg4/lt10_6|u_seg4/lt10_5.fci
+u_seg4/lt10_c7 u_seg4/lt10_cout|u_seg4/lt10_7.fci
+u_seg4/n57 _al_u4130.d[1]
+u_seg4/sm_bit1_num[3]_lutinv _al_u4124|u_seg4/reg2_b3.e[0]
+
+Timing path: _al_u3491|u_RGB565_to_binary/reg1_b3.clk->_al_u4124|u_seg4/reg2_b3
+_al_u3491|u_RGB565_to_binary/reg1_b3.clk
+_al_u4124|u_seg4/reg2_b3
+465 -30.537000 3.157000 33.694000 33 41
+threhold[3] u_seg4/lt0_4|u_seg4/lt0_3.b[0]
+u_seg4/lt0_c5 u_seg4/lt0_6|u_seg4/lt0_5.fci
+u_seg4/lt0_c7 u_seg4/lt0_cout|u_seg4/lt0_7.fci
+u_seg4/sm_bit3_num[0] _al_u3451|u_seg4/reg0_b4.a[1]
+u_seg4/n1[4] u_seg4/lt1_4|u_seg4/lt1_3.b[1]
+u_seg4/lt1_c5 u_seg4/lt1_6|u_seg4/lt1_5.fci
+u_seg4/lt1_c7 u_seg4/lt1_cout|u_seg4/lt1_7.fci
+u_seg4/n2 _al_u3469|_al_u4011.d[1]
+u_seg4/n4[2] u_seg4/sub2/ucin_al_u4729.a[1]
+u_seg4/sub2/c3 u_seg4/sub2/u3_al_u4730.fci
+n58[4] _al_u3522|_al_u3503.c[0]
+u_seg4/n11[5] u_seg4/lt3_6|u_seg4/lt3_5.b[0]
+u_seg4/lt3_c7 u_seg4/lt3_cout|u_seg4/lt3_7.fci
+u_seg4/n13 _al_u3518|_al_u3495.e[1]
+u_seg4/n18[1] u_seg4/sub4/ucin_al_u4733.b[0]
+n60[2] _al_u3599|_al_u3548.b[0]
+u_seg4/n25[3] u_seg4/lt5_4|u_seg4/lt5_3.b[0]
+u_seg4/lt5_c5 u_seg4/lt5_6|u_seg4/lt5_5.fci
+u_seg4/lt5_c7 u_seg4/lt5_cout|u_seg4/lt5_7.fci
+u_seg4/n27 _al_u3599|_al_u3548.b[1]
+u_seg4/n31[3] u_seg4/lt6_4|u_seg4/lt6_3.b[0]
+u_seg4/lt6_c5 u_seg4/lt6_6|u_seg4/lt6_5.fci
+u_seg4/lt6_c7 u_seg4/lt6_cout|u_seg4/lt6_7.fci
+u_seg4/n33 _al_u3640|_al_u3940.a[1]
+u_seg4/n37[4] u_seg4/lt7_4|u_seg4/lt7_3.b[1]
+u_seg4/lt7_c5 u_seg4/lt7_6|u_seg4/lt7_5.fci
+u_seg4/lt7_c7 u_seg4/lt7_cout|u_seg4/lt7_7.fci
+u_seg4/n39 _al_u3938|_al_u3638.e[1]
+u_seg4/n43[2] u_seg4/sub8/ucin_al_u4741.a[1]
+u_seg4/sub8/c3 u_seg4/sub8/u3_al_u4742.fci
+n64[3] _al_u4002|_al_u3960.c[0]
+u_seg4/n49[4] u_seg4/lt9_4|u_seg4/lt9_3.b[1]
+u_seg4/lt9_c5 u_seg4/lt9_6|u_seg4/lt9_5.fci
+u_seg4/lt9_c7 u_seg4/lt9_cout|u_seg4/lt9_7.fci
+u_seg4/n51 _al_u4000|_al_u3958.b[1]
+u_seg4/n55[2] u_seg4/lt10_2|u_seg4/lt10_1.b[1]
+u_seg4/lt10_c3 u_seg4/lt10_4|u_seg4/lt10_3.fci
+u_seg4/lt10_c5 u_seg4/lt10_6|u_seg4/lt10_5.fci
+u_seg4/lt10_c7 u_seg4/lt10_cout|u_seg4/lt10_7.fci
+u_seg4/n57 _al_u4130.d[0]
+u_seg4/sm_bit1_num[3]_lutinv _al_u4124|u_seg4/reg2_b3.e[0]
+
+Timing path: _al_u3491|u_RGB565_to_binary/reg1_b3.clk->_al_u4124|u_seg4/reg2_b3
+_al_u3491|u_RGB565_to_binary/reg1_b3.clk
+_al_u4124|u_seg4/reg2_b3
+571 -30.515000 3.157000 33.672000 33 42
+threhold[3] u_seg4/lt0_4|u_seg4/lt0_3.b[0]
+u_seg4/lt0_c5 u_seg4/lt0_6|u_seg4/lt0_5.fci
+u_seg4/lt0_c7 u_seg4/lt0_cout|u_seg4/lt0_7.fci
+u_seg4/sm_bit3_num[0] _al_u3451|u_seg4/reg0_b4.a[1]
+u_seg4/n1[4] u_seg4/lt1_4|u_seg4/lt1_3.b[1]
+u_seg4/lt1_c5 u_seg4/lt1_6|u_seg4/lt1_5.fci
+u_seg4/lt1_c7 u_seg4/lt1_cout|u_seg4/lt1_7.fci
+u_seg4/n2 _al_u3469|_al_u4011.d[1]
+u_seg4/n4[2] u_seg4/sub2/ucin_al_u4729.a[1]
+u_seg4/sub2/c3 u_seg4/sub2/u3_al_u4730.fci
+n58[4] _al_u3522|_al_u3503.c[0]
+u_seg4/n11[5] u_seg4/lt3_6|u_seg4/lt3_5.b[0]
+u_seg4/lt3_c7 u_seg4/lt3_cout|u_seg4/lt3_7.fci
+u_seg4/n13 _al_u3518|_al_u3495.e[1]
+u_seg4/n18[1] u_seg4/sub4/ucin_al_u4733.b[0]
+n60[2] _al_u3599|_al_u3548.b[0]
+u_seg4/n25[3] u_seg4/lt5_4|u_seg4/lt5_3.b[0]
+u_seg4/lt5_c5 u_seg4/lt5_6|u_seg4/lt5_5.fci
+u_seg4/lt5_c7 u_seg4/lt5_cout|u_seg4/lt5_7.fci
+u_seg4/n27 _al_u3599|_al_u3548.b[1]
+u_seg4/n31[3] u_seg4/lt6_4|u_seg4/lt6_3.b[0]
+u_seg4/lt6_c5 u_seg4/lt6_6|u_seg4/lt6_5.fci
+u_seg4/lt6_c7 u_seg4/lt6_cout|u_seg4/lt6_7.fci
+u_seg4/n33 _al_u3938|_al_u3638.a[0]
+u_seg4/n37[2] u_seg4/lt7_2|u_seg4/lt7_1.b[1]
+u_seg4/lt7_c3 u_seg4/lt7_4|u_seg4/lt7_3.fci
+u_seg4/lt7_c5 u_seg4/lt7_6|u_seg4/lt7_5.fci
+u_seg4/lt7_c7 u_seg4/lt7_cout|u_seg4/lt7_7.fci
+u_seg4/n39 _al_u3938|_al_u3638.e[1]
+u_seg4/n43[2] u_seg4/sub8/ucin_al_u4741.a[1]
+u_seg4/sub8/c3 u_seg4/sub8/u3_al_u4742.fci
+n64[3] _al_u4002|_al_u3960.c[0]
+u_seg4/n49[4] u_seg4/lt9_4|u_seg4/lt9_3.b[1]
+u_seg4/lt9_c5 u_seg4/lt9_6|u_seg4/lt9_5.fci
+u_seg4/lt9_c7 u_seg4/lt9_cout|u_seg4/lt9_7.fci
+u_seg4/n51 _al_u4000|_al_u3958.b[1]
+u_seg4/n55[2] u_seg4/lt10_2|u_seg4/lt10_1.b[1]
+u_seg4/lt10_c3 u_seg4/lt10_4|u_seg4/lt10_3.fci
+u_seg4/lt10_c5 u_seg4/lt10_6|u_seg4/lt10_5.fci
+u_seg4/lt10_c7 u_seg4/lt10_cout|u_seg4/lt10_7.fci
+u_seg4/n57 _al_u4130.d[1]
+u_seg4/sm_bit1_num[3]_lutinv _al_u4124|u_seg4/reg2_b3.e[0]
+
+
+Endpoint: _al_u4132|u_seg4/reg2_b2
+679 -30.233000 1000000000 3
+Timing path: _al_u3491|u_RGB565_to_binary/reg1_b3.clk->_al_u4132|u_seg4/reg2_b2
+_al_u3491|u_RGB565_to_binary/reg1_b3.clk
+_al_u4132|u_seg4/reg2_b2
+681 -30.233000 3.157000 33.390000 33 41
+threhold[3] u_seg4/lt0_4|u_seg4/lt0_3.b[0]
+u_seg4/lt0_c5 u_seg4/lt0_6|u_seg4/lt0_5.fci
+u_seg4/lt0_c7 u_seg4/lt0_cout|u_seg4/lt0_7.fci
+u_seg4/sm_bit3_num[0] _al_u3451|u_seg4/reg0_b4.a[1]
+u_seg4/n1[4] u_seg4/lt1_4|u_seg4/lt1_3.b[1]
+u_seg4/lt1_c5 u_seg4/lt1_6|u_seg4/lt1_5.fci
+u_seg4/lt1_c7 u_seg4/lt1_cout|u_seg4/lt1_7.fci
+u_seg4/n2 _al_u3469|_al_u4011.d[1]
+u_seg4/n4[2] u_seg4/sub2/ucin_al_u4729.a[1]
+u_seg4/sub2/c3 u_seg4/sub2/u3_al_u4730.fci
+n58[4] _al_u3522|_al_u3503.c[0]
+u_seg4/n11[5] u_seg4/lt3_6|u_seg4/lt3_5.b[0]
+u_seg4/lt3_c7 u_seg4/lt3_cout|u_seg4/lt3_7.fci
+u_seg4/n13 _al_u3518|_al_u3495.e[1]
+u_seg4/n18[1] u_seg4/sub4/ucin_al_u4733.b[0]
+n60[2] _al_u3599|_al_u3548.b[0]
+u_seg4/n25[3] u_seg4/lt5_4|u_seg4/lt5_3.b[0]
+u_seg4/lt5_c5 u_seg4/lt5_6|u_seg4/lt5_5.fci
+u_seg4/lt5_c7 u_seg4/lt5_cout|u_seg4/lt5_7.fci
+u_seg4/n27 _al_u3599|_al_u3548.b[1]
+u_seg4/n31[3] u_seg4/lt6_4|u_seg4/lt6_3.b[0]
+u_seg4/lt6_c5 u_seg4/lt6_6|u_seg4/lt6_5.fci
+u_seg4/lt6_c7 u_seg4/lt6_cout|u_seg4/lt6_7.fci
+u_seg4/n33 _al_u3640|_al_u3940.a[1]
+u_seg4/n37[4] u_seg4/lt7_4|u_seg4/lt7_3.b[1]
+u_seg4/lt7_c5 u_seg4/lt7_6|u_seg4/lt7_5.fci
+u_seg4/lt7_c7 u_seg4/lt7_cout|u_seg4/lt7_7.fci
+u_seg4/n39 _al_u3938|_al_u3638.e[1]
+u_seg4/n43[2] u_seg4/sub8/ucin_al_u4741.a[1]
+u_seg4/sub8/c3 u_seg4/sub8/u3_al_u4742.fci
+n64[3] _al_u4002|_al_u3960.c[0]
+u_seg4/n49[4] u_seg4/lt9_4|u_seg4/lt9_3.b[1]
+u_seg4/lt9_c5 u_seg4/lt9_6|u_seg4/lt9_5.fci
+u_seg4/lt9_c7 u_seg4/lt9_cout|u_seg4/lt9_7.fci
+u_seg4/n51 _al_u4000|_al_u3958.b[1]
+u_seg4/n55[2] u_seg4/lt10_2|u_seg4/lt10_1.b[1]
+u_seg4/lt10_c3 u_seg4/lt10_4|u_seg4/lt10_3.fci
+u_seg4/lt10_c5 u_seg4/lt10_6|u_seg4/lt10_5.fci
+u_seg4/lt10_c7 u_seg4/lt10_cout|u_seg4/lt10_7.fci
+u_seg4/n57 _al_u4138|_al_u4137.d[1]
+u_seg4/sm_bit1_num[2]_lutinv _al_u4132|u_seg4/reg2_b2.e[0]
+
+Timing path: _al_u3491|u_RGB565_to_binary/reg1_b3.clk->_al_u4132|u_seg4/reg2_b2
+_al_u3491|u_RGB565_to_binary/reg1_b3.clk
+_al_u4132|u_seg4/reg2_b2
+787 -30.211000 3.157000 33.368000 33 42
+threhold[3] u_seg4/lt0_4|u_seg4/lt0_3.b[0]
+u_seg4/lt0_c5 u_seg4/lt0_6|u_seg4/lt0_5.fci
+u_seg4/lt0_c7 u_seg4/lt0_cout|u_seg4/lt0_7.fci
+u_seg4/sm_bit3_num[0] _al_u3451|u_seg4/reg0_b4.a[1]
+u_seg4/n1[4] u_seg4/lt1_4|u_seg4/lt1_3.b[1]
+u_seg4/lt1_c5 u_seg4/lt1_6|u_seg4/lt1_5.fci
+u_seg4/lt1_c7 u_seg4/lt1_cout|u_seg4/lt1_7.fci
+u_seg4/n2 _al_u3469|_al_u4011.d[1]
+u_seg4/n4[2] u_seg4/sub2/ucin_al_u4729.a[1]
+u_seg4/sub2/c3 u_seg4/sub2/u3_al_u4730.fci
+n58[4] _al_u3522|_al_u3503.c[0]
+u_seg4/n11[5] u_seg4/lt3_6|u_seg4/lt3_5.b[0]
+u_seg4/lt3_c7 u_seg4/lt3_cout|u_seg4/lt3_7.fci
+u_seg4/n13 _al_u3518|_al_u3495.e[1]
+u_seg4/n18[1] u_seg4/sub4/ucin_al_u4733.b[0]
+n60[2] _al_u3599|_al_u3548.b[0]
+u_seg4/n25[3] u_seg4/lt5_4|u_seg4/lt5_3.b[0]
+u_seg4/lt5_c5 u_seg4/lt5_6|u_seg4/lt5_5.fci
+u_seg4/lt5_c7 u_seg4/lt5_cout|u_seg4/lt5_7.fci
+u_seg4/n27 _al_u3599|_al_u3548.b[1]
+u_seg4/n31[3] u_seg4/lt6_4|u_seg4/lt6_3.b[0]
+u_seg4/lt6_c5 u_seg4/lt6_6|u_seg4/lt6_5.fci
+u_seg4/lt6_c7 u_seg4/lt6_cout|u_seg4/lt6_7.fci
+u_seg4/n33 _al_u3938|_al_u3638.a[0]
+u_seg4/n37[2] u_seg4/lt7_2|u_seg4/lt7_1.b[1]
+u_seg4/lt7_c3 u_seg4/lt7_4|u_seg4/lt7_3.fci
+u_seg4/lt7_c5 u_seg4/lt7_6|u_seg4/lt7_5.fci
+u_seg4/lt7_c7 u_seg4/lt7_cout|u_seg4/lt7_7.fci
+u_seg4/n39 _al_u3938|_al_u3638.e[1]
+u_seg4/n43[2] u_seg4/sub8/ucin_al_u4741.a[1]
+u_seg4/sub8/c3 u_seg4/sub8/u3_al_u4742.fci
+n64[3] _al_u4002|_al_u3960.c[0]
+u_seg4/n49[4] u_seg4/lt9_4|u_seg4/lt9_3.b[1]
+u_seg4/lt9_c5 u_seg4/lt9_6|u_seg4/lt9_5.fci
+u_seg4/lt9_c7 u_seg4/lt9_cout|u_seg4/lt9_7.fci
+u_seg4/n51 _al_u4000|_al_u3958.b[1]
+u_seg4/n55[2] u_seg4/lt10_2|u_seg4/lt10_1.b[1]
+u_seg4/lt10_c3 u_seg4/lt10_4|u_seg4/lt10_3.fci
+u_seg4/lt10_c5 u_seg4/lt10_6|u_seg4/lt10_5.fci
+u_seg4/lt10_c7 u_seg4/lt10_cout|u_seg4/lt10_7.fci
+u_seg4/n57 _al_u4138|_al_u4137.d[1]
+u_seg4/sm_bit1_num[2]_lutinv _al_u4132|u_seg4/reg2_b2.e[0]
+
+Timing path: _al_u3491|u_RGB565_to_binary/reg1_b3.clk->_al_u4132|u_seg4/reg2_b2
+_al_u3491|u_RGB565_to_binary/reg1_b3.clk
+_al_u4132|u_seg4/reg2_b2
+895 -30.169000 3.157000 33.326000 33 41
+threhold[3] u_seg4/lt0_4|u_seg4/lt0_3.b[0]
+u_seg4/lt0_c5 u_seg4/lt0_6|u_seg4/lt0_5.fci
+u_seg4/lt0_c7 u_seg4/lt0_cout|u_seg4/lt0_7.fci
+u_seg4/sm_bit3_num[0] _al_u3451|u_seg4/reg0_b4.a[1]
+u_seg4/n1[4] u_seg4/lt1_4|u_seg4/lt1_3.b[1]
+u_seg4/lt1_c5 u_seg4/lt1_6|u_seg4/lt1_5.fci
+u_seg4/lt1_c7 u_seg4/lt1_cout|u_seg4/lt1_7.fci
+u_seg4/n2 _al_u3469|_al_u4011.d[1]
+u_seg4/n4[2] u_seg4/sub2/ucin_al_u4729.a[1]
+u_seg4/sub2/c3 u_seg4/sub2/u3_al_u4730.fci
+n58[4] _al_u3522|_al_u3503.c[0]
+u_seg4/n11[5] u_seg4/lt3_6|u_seg4/lt3_5.b[0]
+u_seg4/lt3_c7 u_seg4/lt3_cout|u_seg4/lt3_7.fci
+u_seg4/n13 _al_u3518|_al_u3495.e[1]
+u_seg4/n18[1] u_seg4/sub4/ucin_al_u4733.b[0]
+n60[2] _al_u3599|_al_u3548.b[0]
+u_seg4/n25[3] u_seg4/lt5_4|u_seg4/lt5_3.b[0]
+u_seg4/lt5_c5 u_seg4/lt5_6|u_seg4/lt5_5.fci
+u_seg4/lt5_c7 u_seg4/lt5_cout|u_seg4/lt5_7.fci
+u_seg4/n27 _al_u3599|_al_u3548.b[1]
+u_seg4/n31[3] u_seg4/lt6_4|u_seg4/lt6_3.b[0]
+u_seg4/lt6_c5 u_seg4/lt6_6|u_seg4/lt6_5.fci
+u_seg4/lt6_c7 u_seg4/lt6_cout|u_seg4/lt6_7.fci
+u_seg4/n33 _al_u3939|_al_u3639.a[0]
+u_seg4/n37[3] u_seg4/lt7_4|u_seg4/lt7_3.b[0]
+u_seg4/lt7_c5 u_seg4/lt7_6|u_seg4/lt7_5.fci
+u_seg4/lt7_c7 u_seg4/lt7_cout|u_seg4/lt7_7.fci
+u_seg4/n39 _al_u3938|_al_u3638.e[1]
+u_seg4/n43[2] u_seg4/sub8/ucin_al_u4741.a[1]
+u_seg4/sub8/c3 u_seg4/sub8/u3_al_u4742.fci
+n64[3] _al_u4002|_al_u3960.c[0]
+u_seg4/n49[4] u_seg4/lt9_4|u_seg4/lt9_3.b[1]
+u_seg4/lt9_c5 u_seg4/lt9_6|u_seg4/lt9_5.fci
+u_seg4/lt9_c7 u_seg4/lt9_cout|u_seg4/lt9_7.fci
+u_seg4/n51 _al_u4000|_al_u3958.b[1]
+u_seg4/n55[2] u_seg4/lt10_2|u_seg4/lt10_1.b[1]
+u_seg4/lt10_c3 u_seg4/lt10_4|u_seg4/lt10_3.fci
+u_seg4/lt10_c5 u_seg4/lt10_6|u_seg4/lt10_5.fci
+u_seg4/lt10_c7 u_seg4/lt10_cout|u_seg4/lt10_7.fci
+u_seg4/n57 _al_u4138|_al_u4137.d[1]
+u_seg4/sm_bit1_num[2]_lutinv _al_u4132|u_seg4/reg2_b2.e[0]
+
+
+
+Hold check
+1001 3
+Endpoint: u_vga_sync/sub1/ucin_al_u4663
+1003 -1.060000 1 1
+Timing path: u_vga_sync/reg0_b0|u_vga_sync/reg0_b9.clk->u_vga_sync/sub1/ucin_al_u4663
+u_vga_sync/reg0_b0|u_vga_sync/reg0_b9.clk
+u_vga_sync/sub1/ucin_al_u4663
+1005 -1.060000 3.653000 2.593000 1 1
+vsync_cnt[0] u_vga_sync/sub1/ucin_al_u4663.mi[0]
+
+
+Endpoint: box_enable_reg_al_u4745
+1031 -0.687000 11 3
+Timing path: u_vga_sync/reg0_b10|u_vga_sync/reg0_b8.clk->box_enable_reg_al_u4745
+u_vga_sync/reg0_b10|u_vga_sync/reg0_b8.clk
+box_enable_reg_al_u4745
+1033 -0.687000 3.653000 2.966000 2 2
+vsync_cnt[10] lt4_10|lt4_9.b[1]
+lt4_c11 box_enable_reg_al_u4745.fci
+
+Timing path: u_vga_sync/reg0_b4|u_vga_sync/reg0_b6.clk->box_enable_reg_al_u4745
+u_vga_sync/reg0_b4|u_vga_sync/reg0_b6.clk
+box_enable_reg_al_u4745
+1061 -0.576000 3.653000 3.077000 2 4
+vsync_cnt[6] lt4_6|lt4_5.b[1]
+lt4_c7 lt4_8|lt4_7.fci
+lt4_c9 lt4_10|lt4_9.fci
+lt4_c11 box_enable_reg_al_u4745.fci
+
+Timing path: u_vga_sync/reg0_b10|u_vga_sync/reg0_b8.clk->box_enable_reg_al_u4745
+u_vga_sync/reg0_b10|u_vga_sync/reg0_b8.clk
+box_enable_reg_al_u4745
+1093 -0.522000 3.653000 3.131000 2 3
+vsync_cnt[8] lt4_8|lt4_7.b[1]
+lt4_c9 lt4_10|lt4_9.fci
+lt4_c11 box_enable_reg_al_u4745.fci
+
+
+Endpoint: add0/ucin_al_u4700
+1123 -0.571000 89 3
+Timing path: u_RGB565_to_binary/reg0_b0|u_RGB565_to_binary/reg0_b7.clk->add0/ucin_al_u4700
+u_RGB565_to_binary/reg0_b0|u_RGB565_to_binary/reg0_b7.clk
+add0/ucin_al_u4700
+1125 -0.571000 3.653000 3.082000 2 2
+binary[7] reg0_b0|_al_u4061.c[1]
+get_inipoint add0/ucin_al_u4700.ce
+
+Timing path: u_vga_sync/reg2_b10|u_vga_sync/reg2_b4.clk->add0/ucin_al_u4700
+u_vga_sync/reg2_b10|u_vga_sync/reg2_b4.clk
+add0/ucin_al_u4700
+1153 1.428000 3.653000 5.081000 5 5
+hsync_cnt[10] lt0_10|lt0_9.b[1]
+lt0_c11 lt0_cout_al_u4746.fci
+n0 reg0_b6|_al_u3525.d[1]
+n7 reg0_b0|_al_u4061.b[1]
+get_inipoint add0/ucin_al_u4700.ce
+
+Timing path: u_vga_sync/reg2_b10|u_vga_sync/reg2_b4.clk->add0/ucin_al_u4700
+u_vga_sync/reg2_b10|u_vga_sync/reg2_b4.clk
+add0/ucin_al_u4700
+1187 1.428000 3.653000 5.081000 5 5
+hsync_cnt[10] lt0_10|lt0_9.b[1]
+lt0_c11 lt0_cout_al_u4746.fci
+n0 reg0_b6|_al_u3525.d[0]
+n7 reg0_b0|_al_u4061.b[1]
+get_inipoint add0/ucin_al_u4700.ce
+
+
+
+
+clock: u_pll/pll_inst.refclk
+1221 0 0 0
+
+clock: u_pll/pll_inst.clkc[0]
+1232 3075377 397 3
+Setup check
+1242 3
+Endpoint: _al_u3487|u_RGB565_to_binary/reg1_b7
+1242 -6.765000 34 3
+Timing path: u_debounce/reg2_b0_IN.ipclk->_al_u3487|u_RGB565_to_binary/reg1_b7
+u_debounce/reg2_b0_IN.ipclk
+_al_u3487|u_RGB565_to_binary/reg1_b7
+1244 -6.765000 1.843000 8.608000 4 4
+u_debounce/key_sec[0] _al_u3491|u_RGB565_to_binary/reg1_b3.a[1]
+u_RGB565_to_binary/n4[3] u_RGB565_to_binary/sub0/ucin_al_u4723.b[1]
+u_RGB565_to_binary/sub0/c3 u_RGB565_to_binary/sub0/u3_al_u4724.fci
+n54[6] _al_u3487|u_RGB565_to_binary/reg1_b7.c[0]
+
+Timing path: u_debounce/reg2_b0_IN.ipclk->_al_u3487|u_RGB565_to_binary/reg1_b7
+u_debounce/reg2_b0_IN.ipclk
+_al_u3487|u_RGB565_to_binary/reg1_b7
+1276 -6.608000 1.843000 8.451000 4 4
+u_debounce/key_sec[0] _al_u3493|u_RGB565_to_binary/reg1_b1.c[1]
+u_RGB565_to_binary/n4[1] u_RGB565_to_binary/sub0/ucin_al_u4723.b[0]
+u_RGB565_to_binary/sub0/c3 u_RGB565_to_binary/sub0/u3_al_u4724.fci
+n54[6] _al_u3487|u_RGB565_to_binary/reg1_b7.c[0]
+
+Timing path: u_debounce/reg2_b0_IN.ipclk->_al_u3487|u_RGB565_to_binary/reg1_b7
+u_debounce/reg2_b0_IN.ipclk
+_al_u3487|u_RGB565_to_binary/reg1_b7
+1308 -6.552000 1.843000 8.395000 4 4
+u_debounce/key_sec[0] _al_u3489|u_RGB565_to_binary/reg1_b5.b[1]
+u_RGB565_to_binary/n4[5] u_RGB565_to_binary/lt1_6|u_RGB565_to_binary/lt1_5.b[0]
+u_RGB565_to_binary/lt1_c7 u_RGB565_to_binary/lt1_cout|u_RGB565_to_binary/lt1_7.fci
+u_RGB565_to_binary/n5 _al_u3487|u_RGB565_to_binary/reg1_b7.b[0]
+
+
+Endpoint: _al_u3493|u_RGB565_to_binary/reg1_b1
+1340 -6.552000 22 3
+Timing path: u_debounce/reg2_b0_IN.ipclk->_al_u3493|u_RGB565_to_binary/reg1_b1
+u_debounce/reg2_b0_IN.ipclk
+_al_u3493|u_RGB565_to_binary/reg1_b1
+1342 -6.552000 1.843000 8.395000 4 4
+u_debounce/key_sec[0] _al_u3489|u_RGB565_to_binary/reg1_b5.b[1]
+u_RGB565_to_binary/n4[5] u_RGB565_to_binary/lt1_6|u_RGB565_to_binary/lt1_5.b[0]
+u_RGB565_to_binary/lt1_c7 u_RGB565_to_binary/lt1_cout|u_RGB565_to_binary/lt1_7.fci
+u_RGB565_to_binary/n5 _al_u3493|u_RGB565_to_binary/reg1_b1.b[0]
+
+Timing path: u_debounce/reg2_b0_IN.ipclk->_al_u3493|u_RGB565_to_binary/reg1_b1
+u_debounce/reg2_b0_IN.ipclk
+_al_u3493|u_RGB565_to_binary/reg1_b1
+1374 -6.549000 1.843000 8.392000 4 7
+u_debounce/key_sec[0] _al_u3447|u_debounce/reg0_b0.d[0]
+u_RGB565_to_binary/n4[0] u_RGB565_to_binary/lt1_0|u_RGB565_to_binary/lt1_cin.b[1]
+u_RGB565_to_binary/lt1_c1 u_RGB565_to_binary/lt1_2|u_RGB565_to_binary/lt1_1.fci
+u_RGB565_to_binary/lt1_c3 u_RGB565_to_binary/lt1_4|u_RGB565_to_binary/lt1_3.fci
+u_RGB565_to_binary/lt1_c5 u_RGB565_to_binary/lt1_6|u_RGB565_to_binary/lt1_5.fci
+u_RGB565_to_binary/lt1_c7 u_RGB565_to_binary/lt1_cout|u_RGB565_to_binary/lt1_7.fci
+u_RGB565_to_binary/n5 _al_u3493|u_RGB565_to_binary/reg1_b1.b[0]
+
+Timing path: u_debounce/reg2_b0_IN.ipclk->_al_u3493|u_RGB565_to_binary/reg1_b1
+u_debounce/reg2_b0_IN.ipclk
+_al_u3493|u_RGB565_to_binary/reg1_b1
+1412 -6.443000 1.843000 8.286000 4 5
+u_debounce/key_sec[0] _al_u3491|u_RGB565_to_binary/reg1_b3.a[1]
+u_RGB565_to_binary/n4[3] u_RGB565_to_binary/lt1_4|u_RGB565_to_binary/lt1_3.b[0]
+u_RGB565_to_binary/lt1_c5 u_RGB565_to_binary/lt1_6|u_RGB565_to_binary/lt1_5.fci
+u_RGB565_to_binary/lt1_c7 u_RGB565_to_binary/lt1_cout|u_RGB565_to_binary/lt1_7.fci
+u_RGB565_to_binary/n5 _al_u3493|u_RGB565_to_binary/reg1_b1.b[0]
+
+
+Endpoint: _al_u3492|u_RGB565_to_binary/reg1_b2
+1446 -6.552000 26 3
+Timing path: u_debounce/reg2_b0_IN.ipclk->_al_u3492|u_RGB565_to_binary/reg1_b2
+u_debounce/reg2_b0_IN.ipclk
+_al_u3492|u_RGB565_to_binary/reg1_b2
+1448 -6.552000 1.843000 8.395000 4 4
+u_debounce/key_sec[0] _al_u3489|u_RGB565_to_binary/reg1_b5.b[1]
+u_RGB565_to_binary/n4[5] u_RGB565_to_binary/lt1_6|u_RGB565_to_binary/lt1_5.b[0]
+u_RGB565_to_binary/lt1_c7 u_RGB565_to_binary/lt1_cout|u_RGB565_to_binary/lt1_7.fci
+u_RGB565_to_binary/n5 _al_u3492|u_RGB565_to_binary/reg1_b2.b[0]
+
+Timing path: u_debounce/reg2_b0_IN.ipclk->_al_u3492|u_RGB565_to_binary/reg1_b2
+u_debounce/reg2_b0_IN.ipclk
+_al_u3492|u_RGB565_to_binary/reg1_b2
+1480 -6.549000 1.843000 8.392000 4 7
+u_debounce/key_sec[0] _al_u3447|u_debounce/reg0_b0.d[0]
+u_RGB565_to_binary/n4[0] u_RGB565_to_binary/lt1_0|u_RGB565_to_binary/lt1_cin.b[1]
+u_RGB565_to_binary/lt1_c1 u_RGB565_to_binary/lt1_2|u_RGB565_to_binary/lt1_1.fci
+u_RGB565_to_binary/lt1_c3 u_RGB565_to_binary/lt1_4|u_RGB565_to_binary/lt1_3.fci
+u_RGB565_to_binary/lt1_c5 u_RGB565_to_binary/lt1_6|u_RGB565_to_binary/lt1_5.fci
+u_RGB565_to_binary/lt1_c7 u_RGB565_to_binary/lt1_cout|u_RGB565_to_binary/lt1_7.fci
+u_RGB565_to_binary/n5 _al_u3492|u_RGB565_to_binary/reg1_b2.b[0]
+
+Timing path: u_debounce/reg2_b0_IN.ipclk->_al_u3492|u_RGB565_to_binary/reg1_b2
+u_debounce/reg2_b0_IN.ipclk
+_al_u3492|u_RGB565_to_binary/reg1_b2
+1518 -6.443000 1.843000 8.286000 4 5
+u_debounce/key_sec[0] _al_u3491|u_RGB565_to_binary/reg1_b3.a[1]
+u_RGB565_to_binary/n4[3] u_RGB565_to_binary/lt1_4|u_RGB565_to_binary/lt1_3.b[0]
+u_RGB565_to_binary/lt1_c5 u_RGB565_to_binary/lt1_6|u_RGB565_to_binary/lt1_5.fci
+u_RGB565_to_binary/lt1_c7 u_RGB565_to_binary/lt1_cout|u_RGB565_to_binary/lt1_7.fci
+u_RGB565_to_binary/n5 _al_u3492|u_RGB565_to_binary/reg1_b2.b[0]
+
+
+
+Hold check
+1552 3
+Endpoint: u_img/inst_32800x16_sub_000000_000
+1554 0.188000 243 3
+Timing path: u_vga_sync/reg1_b12|u_vga_sync/reg1_b9.clk->u_img/inst_32800x16_sub_000000_000
+u_vga_sync/reg1_b12|u_vga_sync/reg1_b9.clk
+u_img/inst_32800x16_sub_000000_000
+1556 0.188000 2.162000 2.350000 1 1
+vga_rdaddr[9] u_img/inst_32800x16_sub_000000_000.addrb[12]
+
+Timing path: u_vga_sync/reg1_b15|u_vga_sync/reg1_b6.clk->u_img/inst_32800x16_sub_000000_000
+u_vga_sync/reg1_b15|u_vga_sync/reg1_b6.clk
+u_img/inst_32800x16_sub_000000_000
+1582 0.292000 2.162000 2.454000 1 1
+vga_rdaddr[6] u_img/inst_32800x16_sub_000000_000.addrb[9]
+
+Timing path: u_vga_sync/reg1_b14|u_vga_sync/reg1_b7.clk->u_img/inst_32800x16_sub_000000_000
+u_vga_sync/reg1_b14|u_vga_sync/reg1_b7.clk
+u_img/inst_32800x16_sub_000000_000
+1608 0.304000 2.162000 2.466000 1 1
+vga_rdaddr[7] u_img/inst_32800x16_sub_000000_000.addrb[10]
+
+
+Endpoint: u_img/inst_32800x16_sub_032768_000
+1634 0.211000 243 3
+Timing path: u_vga_sync/reg2_b1|u_vga_sync/reg1_b1.clk->u_img/inst_32800x16_sub_032768_000
+u_vga_sync/reg2_b1|u_vga_sync/reg1_b1.clk
+u_img/inst_32800x16_sub_032768_000
+1636 0.211000 2.162000 2.373000 1 1
+vga_rdaddr[1] u_img/inst_32800x16_sub_032768_000.addrb[5]
+
+Timing path: u_vga_sync/reg1_b15|u_vga_sync/reg1_b6.clk->u_img/inst_32800x16_sub_032768_000
+u_vga_sync/reg1_b15|u_vga_sync/reg1_b6.clk
+u_img/inst_32800x16_sub_032768_000
+1662 0.293000 2.162000 2.455000 1 1
+vga_rdaddr[6] u_img/inst_32800x16_sub_032768_000.addrb[10]
+
+Timing path: u_vga_sync/reg1_b14|u_vga_sync/reg1_b7.clk->u_img/inst_32800x16_sub_032768_000
+u_vga_sync/reg1_b14|u_vga_sync/reg1_b7.clk
+u_img/inst_32800x16_sub_032768_000
+1688 0.304000 2.162000 2.466000 1 1
+vga_rdaddr[7] u_img/inst_32800x16_sub_032768_000.addrb[11]
+
+
+Endpoint: u_img/inst_32800x16_sub_014336_000
+1714 0.281000 243 3
+Timing path: u_vga_sync/reg2_b0|u_vga_sync/reg1_b0.clk->u_img/inst_32800x16_sub_014336_000
+u_vga_sync/reg2_b0|u_vga_sync/reg1_b0.clk
+u_img/inst_32800x16_sub_014336_000
+1716 0.281000 2.162000 2.443000 1 1
+vga_rdaddr[0] u_img/inst_32800x16_sub_014336_000.addrb[3]
+
+Timing path: _al_u3475|u_vga_sync/reg1_b4.clk->u_img/inst_32800x16_sub_014336_000
+_al_u3475|u_vga_sync/reg1_b4.clk
+u_img/inst_32800x16_sub_014336_000
+1742 0.304000 2.162000 2.466000 1 1
+vga_rdaddr[4] u_img/inst_32800x16_sub_014336_000.addrb[7]
+
+Timing path: u_vga_sync/reg2_b1|u_vga_sync/reg1_b1.clk->u_img/inst_32800x16_sub_014336_000
+u_vga_sync/reg2_b1|u_vga_sync/reg1_b1.clk
+u_img/inst_32800x16_sub_014336_000
+1768 0.439000 2.162000 2.601000 1 1
+vga_rdaddr[1] u_img/inst_32800x16_sub_014336_000.addrb[4]
+
+
+
+Period check
+1794 61
+Endpoint: u_img/inst_32800x16_sub_000000_000.clkb
+1798 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_000000_009.clkb
+1799 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_000000_010.clkb
+1800 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_000000_011.clkb
+1801 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_000000_012.clkb
+1802 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_000000_013.clkb
+1803 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_000000_014.clkb
+1804 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_000000_015.clkb
+1805 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_001024_000.clkb
+1806 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_002048_000.clkb
+1807 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_003072_000.clkb
+1808 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_004096_000.clkb
+1809 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_005120_000.clkb
+1810 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_006144_000.clkb
+1811 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_007168_000.clkb
+1812 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_008192_000.clkb
+1813 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_008192_009.clkb
+1814 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_008192_010.clkb
+1815 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_008192_011.clkb
+1816 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_008192_012.clkb
+1817 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_008192_013.clkb
+1818 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_008192_014.clkb
+1819 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_008192_015.clkb
+1820 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_009216_000.clkb
+1821 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_010240_000.clkb
+1822 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_011264_000.clkb
+1823 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_012288_000.clkb
+1824 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_013312_000.clkb
+1825 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_014336_000.clkb
+1826 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_015360_000.clkb
+1827 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_016384_000.clkb
+1828 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_016384_009.clkb
+1829 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_016384_010.clkb
+1830 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_016384_011.clkb
+1831 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_016384_012.clkb
+1832 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_016384_013.clkb
+1833 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_016384_014.clkb
+1834 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_016384_015.clkb
+1835 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_017408_000.clkb
+1836 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_018432_000.clkb
+1837 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_019456_000.clkb
+1838 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_020480_000.clkb
+1839 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_021504_000.clkb
+1840 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_022528_000.clkb
+1841 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_023552_000.clkb
+1842 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_024576_000.clkb
+1843 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_024576_009.clkb
+1844 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_024576_010.clkb
+1845 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_024576_011.clkb
+1846 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_024576_012.clkb
+1847 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_024576_013.clkb
+1848 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_024576_014.clkb
+1849 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_024576_015.clkb
+1850 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_025600_000.clkb
+1851 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_026624_000.clkb
+1852 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_027648_000.clkb
+1853 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_028672_000.clkb
+1854 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_029696_000.clkb
+1855 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_030720_000.clkb
+1856 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_031744_000.clkb
+1857 35.797000 1 0
+
+Endpoint: u_img/inst_32800x16_sub_032768_000.clkb
+1858 35.797000 1 0
+
+
+
+clock: u_pll/pll_inst.clkc[1]
+1859 0 0 0
+
+clock: u_pll/pll_inst.clkc[2]
+1870 176 34 2
+Setup check
+1880 3
+Endpoint: u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+1880 243.597000 5 3
+Timing path: u_camera_init/add0/ucin_al_u4697.clk->u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+u_camera_init/add0/ucin_al_u4697.clk
+u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+1882 243.597000 249.067000 5.470000 3 3
+u_camera_init/divider2[0] u_camera_init/add0/ucin_al_u4697.b[0]
+u_camera_init/add0/c3 u_camera_init/add0/u3_al_u4698.fci
+u_camera_init/n0[4] u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6.mi[1]
+
+Timing path: u_camera_init/reg4_b2|u_camera_init/reg4_b8.clk->u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+u_camera_init/reg4_b2|u_camera_init/reg4_b8.clk
+u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+1912 243.810000 249.067000 5.257000 3 3
+u_camera_init/divider2[2] u_camera_init/add0/ucin_al_u4697.b[1]
+u_camera_init/add0/c3 u_camera_init/add0/u3_al_u4698.fci
+u_camera_init/n0[4] u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6.mi[1]
+
+Timing path: u_camera_init/add0/ucin_al_u4697.clk->u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+u_camera_init/add0/ucin_al_u4697.clk
+u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+1942 244.128000 249.067000 4.939000 3 3
+u_camera_init/divider2[1] u_camera_init/add0/ucin_al_u4697.a[1]
+u_camera_init/add0/c3 u_camera_init/add0/u3_al_u4698.fci
+u_camera_init/n0[4] u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6.mi[1]
+
+
+Endpoint: u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+1972 243.825000 7 3
+Timing path: u_camera_init/u_i2c_write/add0/ucin_al_u4712.clk->u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+u_camera_init/u_i2c_write/add0/ucin_al_u4712.clk
+u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+1974 243.825000 249.174000 5.349000 3 3
+u_camera_init/u_i2c_write/divider2[0] u_camera_init/u_i2c_write/add0/ucin_al_u4712.b[0]
+u_camera_init/u_i2c_write/add0/c3 u_camera_init/u_i2c_write/add0/u3_al_u4713.fci
+u_camera_init/u_i2c_write/n1[6] u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6.mi[0]
+
+Timing path: u_camera_init/reg4_b6|u_camera_init/u_i2c_write/reg0_b4.clk->u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+u_camera_init/reg4_b6|u_camera_init/u_i2c_write/reg0_b4.clk
+u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+2004 243.850000 249.174000 5.324000 2 2
+u_camera_init/u_i2c_write/divider2[4] u_camera_init/u_i2c_write/add0/u3_al_u4713.b[0]
+u_camera_init/u_i2c_write/n1[6] u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6.mi[0]
+
+Timing path: u_camera_init/u_i2c_write/reg0_b2.clk->u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+u_camera_init/u_i2c_write/reg0_b2.clk
+u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6
+2032 244.167000 249.174000 5.007000 3 3
+u_camera_init/u_i2c_write/divider2[2] u_camera_init/u_i2c_write/add0/ucin_al_u4712.b[1]
+u_camera_init/u_i2c_write/add0/c3 u_camera_init/u_i2c_write/add0/u3_al_u4713.fci
+u_camera_init/u_i2c_write/n1[6] u_camera_init/reg4_b4|u_camera_init/u_i2c_write/reg0_b6.mi[0]
+
+
+Endpoint: u_camera_init/reg4_b7|u_camera_init/u_i2c_write/reg0_b3
+2062 243.857000 9 3
+Timing path: u_camera_init/add0/ucin_al_u4697.clk->u_camera_init/reg4_b7|u_camera_init/u_i2c_write/reg0_b3
+u_camera_init/add0/ucin_al_u4697.clk
+u_camera_init/reg4_b7|u_camera_init/u_i2c_write/reg0_b3
+2064 243.857000 249.067000 5.210000 3 4
+u_camera_init/divider2[0] u_camera_init/add0/ucin_al_u4697.b[0]
+u_camera_init/add0/c3 u_camera_init/add0/u3_al_u4698.fci
+u_camera_init/add0/c7 u_camera_init/add0/u7_al_u4699.fci
+u_camera_init/n0[7] u_camera_init/reg4_b7|u_camera_init/u_i2c_write/reg0_b3.mi[1]
+
+Timing path: u_camera_init/reg4_b2|u_camera_init/reg4_b8.clk->u_camera_init/reg4_b7|u_camera_init/u_i2c_write/reg0_b3
+u_camera_init/reg4_b2|u_camera_init/reg4_b8.clk
+u_camera_init/reg4_b7|u_camera_init/u_i2c_write/reg0_b3
+2096 244.070000 249.067000 4.997000 3 4
+u_camera_init/divider2[2] u_camera_init/add0/ucin_al_u4697.b[1]
+u_camera_init/add0/c3 u_camera_init/add0/u3_al_u4698.fci
+u_camera_init/add0/c7 u_camera_init/add0/u7_al_u4699.fci
+u_camera_init/n0[7] u_camera_init/reg4_b7|u_camera_init/u_i2c_write/reg0_b3.mi[1]
+
+Timing path: u_camera_init/reg4_b3|u_camera_init/u_i2c_write/reg0_b7.clk->u_camera_init/reg4_b7|u_camera_init/u_i2c_write/reg0_b3
+u_camera_init/reg4_b3|u_camera_init/u_i2c_write/reg0_b7.clk
+u_camera_init/reg4_b7|u_camera_init/u_i2c_write/reg0_b3
+2128 244.255000 249.067000 4.812000 3 3
+u_camera_init/divider2[3] u_camera_init/add0/u3_al_u4698.a[0]
+u_camera_init/add0/c7 u_camera_init/add0/u7_al_u4699.fci
+u_camera_init/n0[7] u_camera_init/reg4_b7|u_camera_init/u_i2c_write/reg0_b3.mi[1]
+
+
+
+Hold check
+2158 3
+Endpoint: u_camera_init/add0/ucin_al_u4697
+2160 1.379000 3 3
+Timing path: u_camera_init/add0/ucin_al_u4697.clk->u_camera_init/add0/ucin_al_u4697
+u_camera_init/add0/ucin_al_u4697.clk
+u_camera_init/add0/ucin_al_u4697
+2162 1.379000 1.999000 3.378000 2 2
+u_camera_init/divider2[1] u_camera_init/add0/ucin_al_u4697.a[1]
+u_camera_init/n0[1] u_camera_init/add0/ucin_al_u4697.mi[1]
+
+Timing path: u_camera_init/reg4_b2|u_camera_init/reg4_b8.clk->u_camera_init/add0/ucin_al_u4697
+u_camera_init/reg4_b2|u_camera_init/reg4_b8.clk
+u_camera_init/add0/ucin_al_u4697
+2190 1.730000 1.999000 3.729000 2 2
+u_camera_init/divider2[2] u_camera_init/add0/ucin_al_u4697.b[1]
+u_camera_init/n0[1] u_camera_init/add0/ucin_al_u4697.mi[1]
+
+Timing path: u_camera_init/add0/ucin_al_u4697.clk->u_camera_init/add0/ucin_al_u4697
+u_camera_init/add0/ucin_al_u4697.clk
+u_camera_init/add0/ucin_al_u4697
+2218 2.170000 1.999000 4.169000 2 2
+u_camera_init/divider2[0] u_camera_init/add0/ucin_al_u4697.b[0]
+u_camera_init/n0[1] u_camera_init/add0/ucin_al_u4697.mi[1]
+
+
+Endpoint: u_camera_init/u_i2c_write/add0/ucin_al_u4712
+2246 1.379000 3 3
+Timing path: u_camera_init/u_i2c_write/add0/ucin_al_u4712.clk->u_camera_init/u_i2c_write/add0/ucin_al_u4712
+u_camera_init/u_i2c_write/add0/ucin_al_u4712.clk
+u_camera_init/u_i2c_write/add0/ucin_al_u4712
+2248 1.379000 1.999000 3.378000 2 2
+u_camera_init/u_i2c_write/divider2[1] u_camera_init/u_i2c_write/add0/ucin_al_u4712.a[1]
+u_camera_init/u_i2c_write/n1[1] u_camera_init/u_i2c_write/add0/ucin_al_u4712.mi[1]
+
+Timing path: u_camera_init/u_i2c_write/reg0_b2.clk->u_camera_init/u_i2c_write/add0/ucin_al_u4712
+u_camera_init/u_i2c_write/reg0_b2.clk
+u_camera_init/u_i2c_write/add0/ucin_al_u4712
+2276 1.623000 1.999000 3.622000 2 2
+u_camera_init/u_i2c_write/divider2[2] u_camera_init/u_i2c_write/add0/ucin_al_u4712.b[1]
+u_camera_init/u_i2c_write/n1[1] u_camera_init/u_i2c_write/add0/ucin_al_u4712.mi[1]
+
+Timing path: u_camera_init/u_i2c_write/add0/ucin_al_u4712.clk->u_camera_init/u_i2c_write/add0/ucin_al_u4712
+u_camera_init/u_i2c_write/add0/ucin_al_u4712.clk
+u_camera_init/u_i2c_write/add0/ucin_al_u4712
+2304 2.170000 1.999000 4.169000 2 2
+u_camera_init/u_i2c_write/divider2[0] u_camera_init/u_i2c_write/add0/ucin_al_u4712.b[0]
+u_camera_init/u_i2c_write/n1[1] u_camera_init/u_i2c_write/add0/ucin_al_u4712.mi[1]
+
+
+Endpoint: u_camera_init/reg4_b2|u_camera_init/reg4_b8
+2332 1.435000 3 3
+Timing path: u_camera_init/add0/ucin_al_u4697.clk->u_camera_init/reg4_b2|u_camera_init/reg4_b8
+u_camera_init/add0/ucin_al_u4697.clk
+u_camera_init/reg4_b2|u_camera_init/reg4_b8
+2334 1.435000 2.020000 3.455000 2 2
+u_camera_init/divider2[1] u_camera_init/add0/ucin_al_u4697.a[1]
+u_camera_init/n0[2] u_camera_init/reg4_b2|u_camera_init/reg4_b8.mi[1]
+
+Timing path: u_camera_init/reg4_b2|u_camera_init/reg4_b8.clk->u_camera_init/reg4_b2|u_camera_init/reg4_b8
+u_camera_init/reg4_b2|u_camera_init/reg4_b8.clk
+u_camera_init/reg4_b2|u_camera_init/reg4_b8
+2362 1.767000 2.020000 3.787000 2 2
+u_camera_init/divider2[2] u_camera_init/add0/ucin_al_u4697.b[1]
+u_camera_init/n0[2] u_camera_init/reg4_b2|u_camera_init/reg4_b8.mi[1]
+
+Timing path: u_camera_init/add0/ucin_al_u4697.clk->u_camera_init/reg4_b2|u_camera_init/reg4_b8
+u_camera_init/add0/ucin_al_u4697.clk
+u_camera_init/reg4_b2|u_camera_init/reg4_b8
+2390 2.197000 2.020000 4.217000 2 2
+u_camera_init/divider2[0] u_camera_init/add0/ucin_al_u4697.b[0]
+u_camera_init/n0[2] u_camera_init/reg4_b2|u_camera_init/reg4_b8.mi[1]
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  u_pll/pll_inst.clkc[0] (25.512MHz)            45.962ns      21.757MHz        0.303ns       110      -51.902ns
+	  clk_24m (24.038MHz)                           72.665ns      13.762MHz        0.399ns        51     -218.722ns
+	  u_pll/pll_inst.clkc[2] (4.048MHz)              3.446ns     290.192MHz        0.211ns        29        0.000ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: there are 5 clock nets without clock constraints.
+	cam_pclk_pad
+	camera_wrreq
+	u_camera_init/divider2[8]
+	u_camera_init/u_i2c_write/divider2[7]
+	u_seg4/n79
+
